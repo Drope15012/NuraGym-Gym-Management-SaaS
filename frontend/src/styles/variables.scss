@@ -1,0 +1,20 @@
+$bg-color: #e5e7eb;
+$card-bg: #ffffff;
+$border-color: #9ca3af;
+$primary-accent: #d97706;
+$text-main: #1f2937;
+$text-danger: #b91c1c;
+
+$muted-text: #4b5563;
+$sidebar-bg: #1f2937;
+
+// Compatibility aliases for the shared auth and reporting views.
+$bg: $bg-color;
+$panel: $card-bg;
+$ink: $text-main;
+$muted: $muted-text;
+$line: $border-color;
+$blue: $primary-accent;
+$teal: #0f766e;
+$red: $text-danger;
+$navy: $sidebar-bg;

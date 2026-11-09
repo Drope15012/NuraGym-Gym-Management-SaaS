@@ -1,0 +1,1 @@
+-- Initial relational schema. Runtime uses MySQL through backend/src/config/db.js.

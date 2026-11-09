@@ -1,0 +1,31 @@
+{
+  "name": "nuragym-backend",
+  "version": "1.0.0",
+  "description": "REST API for NuraGym SaaS",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --ignore data/ src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "db": "\"C:/Program Files/MySQL/MySQL Server 8.4/bin/mysqld.exe\" --datadir=\"./mysql-data\" --port=3306 --bind-address=127.0.0.1 --console"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^2.3.0",
+    "mysql2": "^3.24.4",
+    "winston": "^3.17.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  }
+}

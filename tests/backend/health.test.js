@@ -1,0 +1,9 @@
+import assert from 'node:assert/strict';
+import test from 'node:test';
+import request from 'supertest';
+import { app } from '../../backend/src/app.js';
+
+test('health endpoint returns service status', async () => {
+  const response = await request(app).get('/health').expect(200);
+  assert.equal(response.body.status, 'ok');
+});
